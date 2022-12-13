@@ -8,11 +8,16 @@ let es1String1 = `stringa1`;
 let es1String2 = `stringa2`;
 
 let risultatoEs1 = es1String1.concat(es1String2);
-console.log(risultato);
+console.log(risultatoEs1);
+console.log(`<-------------------->`);
 /* ESERCIZIO 2
   Scrivi una funzione che torni un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
 */
+console.log(`<----esercizio2---->`);
+let RandomNumber = Math.floor(Math.random() * 11);
+console.log(RandomNumber);
 
+console.log(`<-------------------->`);
 /* ESERCIZIO 3
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici (suggerimento: il metodo filter può aiutare)
 */
